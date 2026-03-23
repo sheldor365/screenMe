@@ -2,9 +2,10 @@ import streamlit as st
 from openai import OpenAI
 import random
 import time
+import os
 
 # ================== CONFIG ==================
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 st.set_page_config(page_title="AI Interview Platform", layout="wide")
 
 # ================== SESSION STATE ==================
