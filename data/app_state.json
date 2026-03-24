@@ -1,0 +1,28 @@
+{
+  "configs": [
+    {
+      "role": "QA",
+      "difficulty": "Medium"
+    }
+  ],
+  "assignments": {
+    "abc": {
+      "role": "QA",
+      "difficulty": "Medium"
+    }
+  },
+  "results": {
+    "abc": {
+      "role": "QA",
+      "difficulty": "Medium",
+      "evaluation": "Score: 7/10  \nVerdict: Hire  \n\nStrengths:  \n- Demonstrated a proactive approach to test case creation in the absence of documentation by engaging with stakeholders and understanding critical flows.  \n- Familiarity with a variety of testing techniques, including boundary value analysis, black box testing, and edge cases, indicating a comprehensive approach to quality assurance.  \n- Practical experience with mocking services, which suggests hands-on knowledge and the ability to implement effective testing strategies to streamline workflows.  \n\nWeaknesses:  \n- The responses lack specific details and examples that could provide better insight into the candidate's experience and the scope of their impact on previous projects.  \n- The explanation of the use of the mock service is vague; more elaboration on the context and the extent of time saved would strengthen their case.  \n- Focus seems heavily weighted on immediate practical execution rather than strategic long-term testing practices or methodologies.",
+      "transcript": [
+        "Q: How would you approach creating test cases for a feature when documentation is lacking?\nA: Talk to stakeholders, get an understanding and see the critical flows and start assigning the priority for negative and positive testcases - then we can do boundary value analysis, black box testing, edge cases etc",
+        "Q: How do you determine which test cases to prioritize when conflicts arise between positive and negative scenarios?\nA: mocking the service, analysing impact and trying out the most repeatable workflow on production",
+        "Q: Can you give a specific example of a time when you implemented a mock service, and what impact it had on the production workflow?\nA: saved a lot of time."
+      ],
+      "decision": "Rejected"
+    }
+  },
+  "active_interviews": {}
+}

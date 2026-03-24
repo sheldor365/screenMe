@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+screenme/.env
+screenme/__pycache__/
+screenme/ui/__pycache__/
